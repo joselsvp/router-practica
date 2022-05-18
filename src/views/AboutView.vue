@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>Este es la página de acerca de nosotros</h1>
+    <Titulo texto = "Estamos en la sección de nosotros"/>
   </div>
 </template>
+<script>
+
+import Titulo from '../components/Titulo.vue'
+export default {
+  components: {
+    Titulo
+  }
+  
+}
+</script>
